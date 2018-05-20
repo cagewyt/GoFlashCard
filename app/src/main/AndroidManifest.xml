@@ -19,8 +19,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CardSetListActivity" />
-        <activity android:name=".CardListActivity"></activity>
+        <activity android:name=".CardListActivity" />
+        <activity
+            android:name=".AddCardSetActivity"
+            android:label="@string/title_activity_add_card_set"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CardSetListActivity"
+            android:label="@string/title_activity_card_set_list"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
